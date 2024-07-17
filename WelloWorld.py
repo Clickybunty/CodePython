@@ -1,3 +1,15 @@
+import tkinter as tk
+
+root = tk.Tk()
+
+Label = tk.Label(root, text="Hallo Welt")
+Label.pack()
+
+root.mainloop()
+
+
+
+
 def quiz():    
     Frage = input(Name + " Wie lautet die UID des Benutzers root? 1, -1, 255, 0, 65536 ")
     
