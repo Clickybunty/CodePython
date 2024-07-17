@@ -1,3 +1,14 @@
+import random
+
+def RandomFunc():
+    RandNumber=(random.randint(1, 10))
+    return RandNumber
+i=0
+while i<10:
+    print(RandomFunc())
+    i=i+1
+    
+
 # Function
 name=input("Hey DU.. wie heißt Du? ")
 
