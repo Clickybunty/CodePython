@@ -10,8 +10,7 @@ while i<10:
 
 # Function
 def SumOfSquares(n):
-    i=0
-    
+    i=0    
      
 def ImQuadrat(Argument):
     return Argument * Argument   
@@ -23,11 +22,14 @@ def Modulo(Modu):
 def Begrueßung():    
     print(f"Hallo, {name}! Willkommen zum Python unterricht")
             
-    
+GitTestPresaentation=input("Hallo schreib doch was")            
+                
 number = input("Please type in a number: ") 
 if int(number) > 100:
     print("The number was greater than one hundred") 
+    
 NewValue = int(number)-100
+
 print("Now its value has decreased by one hundred") 
 print("Its value is now " + str(NewValue))
 print(str(NewValue) + " must be my lucky number!") 
