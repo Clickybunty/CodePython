@@ -2,9 +2,25 @@ import tkinter as tk
 
 root = tk.Tk()
 
+# Benennt die Kopfzeile des GUI
+root.title("Haed vom Fenster")
+
+# Definiert die Größe der GUI
+root.geometry("400x400")
+
+# Beschränkt die Kleinste GUI Darstellung
+root.minsize(width=200, height=200)
+
+# Beschränkt die maximale GUI Darstellung
+root.maxsize(width=800, height=800)
+
+# Ein Label innerhalb des GUI
 Label = tk.Label(root, text="Hallo Welt")
 Label.pack()
 
+# mainloop startet eine endlos schleife. 
+# Code darunter kann erst mal nicht ausgeführt werden
+# bis der mainloop beendet wird
 root.mainloop()
 
 
