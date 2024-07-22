@@ -1,0 +1,41 @@
+class Voegel:
+    def __init__(self, vogelart, geschlecht, farbe, alter): # das sind meine Attribute (eigenschaften)
+        self.VogelArt = vogelart 
+        self.Geschlecht = geschlecht 
+        self.Farbe = farbe  
+        self.Alter = alter
+
+# Methoden angelegt
+
+    def anzeige(self):
+        return print(f"Hier könnt ihr euren Lieblingsvogel vom nahen betrachten!")
+
+    def gattung(self):
+        
+        return self.VogelArt
+
+    def vogel_infos(self):
+        print(f"Vogelart: {self.VogelArt}")
+        print(f"Geschlecht: {self.Geschlecht}")
+        print(f"Farbe: {self.Farbe}")
+        print(f"Alter: {self.Alter}")
+
+
+#das Objekt (wird auch in seperater Datei aufgeführt)
+Wellensittich = Voegel("Wellensittich", "männchen", "blau-türkis-gelb", "2")
+Adler = Voegel("Adler", "männchen","schwarz-weiß-braun","5" )
+Kolibri = Voegel("Kolibri", "weibchen","grün-grau","1")
+
+#methoden immer Objekte mit den Methoden aufrufen, nur dann geht es. 
+#hier sind wir noch am überlegen mit Ahmet, wie ich das None None None weg bekommt,
+#und durch gattung(self): die objekte in den Methoden in einem string auflisten kann.
+Vogel1=str(Wellensittich.gattung())
+Vogel2=str(Adler.gattung())
+Vogel3=str(Kolibri.gattung())
+print(Wellensittich.gattung(), Adler.gattung(), Kolibri.gattung())
+
+print(Vogel1,Vogel2,Vogel3)
+Wellensittich.anzeige()
+Wellensittich.vogel_infos()
+Adler.vogel_infos()
+Kolibri.vogel_infos()
