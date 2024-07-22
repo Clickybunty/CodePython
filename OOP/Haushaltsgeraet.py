@@ -7,14 +7,13 @@ class Waschmaschnine:
         self.preis = preis
         
     def waschen(self):     
-        print(f"Die Waschmaschine {self.marke}")
-        print(f"Kake {self.marke}")
+        print(f"Die Waschmaschine {self.name}")
+        print(f"Ist aus dem Hause {self.marke}")
     
     def anzeigenInformationen(self):
         print(f"Die Waschmaschine {self.marke}")
         print(f"Kapazitaet {self.kapazitaet} kg")
         print(f"Preis {self.preis} Euro")
-        print(f"Status {self.status}")
             
             
 

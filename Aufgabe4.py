@@ -18,5 +18,6 @@ def sum_of_squares(n):
     return Summ
 
 n = RandomFunc()
+print(n)
 Sum = sum_of_squares(n)
 print(f"Die Summe der Quadrate der ersten {n} natürlichen Zahlen ist: {Sum}")
