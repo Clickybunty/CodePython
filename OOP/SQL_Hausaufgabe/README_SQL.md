@@ -1,0 +1,10 @@
+python create_database.py
+python create_table_kunden.py
+python insert_into_kunden.py
+python create_table_transaktionen.py
+python insert_into_transaktionen.py
+python select_from_kunden.py
+python select_with_join.py
+python delete_from_transaktionen.py
+python drop_table_transaktionen.py
+python drop_database.py
